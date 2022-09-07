@@ -1,0 +1,51 @@
+html,
+body,
+header,
+h1,
+h2,
+p,
+main,
+i,
+em,
+b,
+strong {
+  border: 4px solid transparent;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+i,
+em {
+  border-color: red;
+}
+
+body,
+b,
+strong {
+  border-color: green;
+}
+
+header {
+  border-color: blue;
+}
+
+h1 {
+  border-color: pink;
+}
+
+h2 {
+  border-color: cyan;
+}
+
+p {
+  border-color: black;
+}
+
+main {
+  border-color:beige;
+}
+
+roy {
+  color: purple;
+}
