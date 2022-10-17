@@ -1,0 +1,25 @@
+body {
+  --box-width: 200px;
+}
+
+div {
+  width: var(--box-width);
+  height: var(--box-width);
+}
+
+div:nth-child(1) {
+  background-color: yellow;
+}
+
+div:nth-child(2) {
+  position: relative;
+  top: calc(-1 * calc(var(--box-width) / 2 ));
+  background-color: green;
+  z-index: -1;
+}
+
+div:nth-child(3) {
+  top: 200px;
+  left: 200px;
+  background-color: pink;
+}
